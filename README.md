@@ -1,8 +1,9 @@
 # Identifying Utility Outages Using Social Media:
 Identifying utility outage events in the District of Columbia Metro Area
 
-## Problem Statement(Copy from Slides): 
+## Problem Statement: 
 How can we identify utility outage events in the DC Metro Area by analyzing social-media streaming data?
+(Elaborate)
 
 ## Executive Summary:
 - Two sentences on EDA (Dereje) and Methodology (Sara)
