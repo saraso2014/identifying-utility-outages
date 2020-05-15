@@ -10,8 +10,45 @@ How can we identify utility outage events in the DC Metro Area by analyzing soci
 - Two sentences on Feature Engineering and Visualization (Eric)
 - Two sentences on Conclusions and Recommendations (Eric, Dereje, Sara)
 
-## Data Directory (Eric):
+## Project Directory (Eric):
+
+data
+    --clean
+    --initial test scrape
+    --january
+    --july
+    --merged
+    --ne bomb cyclone data top tweets
+    --ne bomb cyclone data w:o location
+    --spactial data
+data_collection
+EDA
+feature_engineering
+modeling
+tableau
+visualizations
+README.md
+
 
 ## Data Dictionary (Sara):
+
+| Data        | Meaning                                   | Type    |
+|-------------|-------------------------------------------|---------|
+| Event       | Name of data pull \(primary\)             | object  |
+| Stage       | Name of data pull \(secondary\)           | object  |
+| Query Date  | Date from which query works backward      | object  |
+| Query Term  | Term which query is pulled                | object  |
+| Id          | Unique ID assigned per tweet              | int64   |
+| Username    | Twitter handle                            | object  |
+| Text        | Tweet text                                | object  |
+| Date        | Datetime stamp tweet was posted           | object  |
+| Hashtags    | Hashtags associated with tweet            | object  |
+| Location    | Hidden geodata from tweet \(location ID\) | float64 |
+| \_wkt\_geom |                                           |         |
+| id          |                                           |         |
+| xcoord      |                                           |         |
+| ycoord      |                                           |         |
+| Sentiment   |                                           |         |
+
 
 ## Links and Visuals (Eric, Dereje, Sara):
