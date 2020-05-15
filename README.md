@@ -31,8 +31,6 @@ The most prominent issue of feature engineering was the lack of true geocoordina
 - Refine sentiment analysis and consider larger query list for relevant terms related to power outage and investigate cosine similarity of these terms uising Word2Vec Python Library.
 - Compare the data from this analysis to actual utility grid-outage data and investigate discrepencies.
 
-## Project Directory:
-
 ## File Directory: 
 - 01_data_collection
    - twitter-eric.ipynb   
@@ -114,3 +112,4 @@ The most prominent issue of feature engineering was the lack of true geocoordina
 - [Presentation]('Presentation.pdf')
 - [Tableau]('https://public.tableau.com/views/GA_DSI_DC_PowerOutages_20200513/Dashboard?:display_count=y&publish=yes&:origin=viz_share_link')
 
+![](05_images/Image%205-15-20%20at%205.26%20PM.jpeg)
