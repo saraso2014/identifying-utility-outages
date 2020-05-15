@@ -7,6 +7,7 @@ How can we identify utility outage events in the DC Metro Area by analyzing soci
 
 ## Executive Summary:
 - Two sentences on EDA (Dereje) and Methodology (Sara)
+We were able to obtain the data by using a 
 - Two sentences on Feature Engineering and Visualization (Eric)
 - Two sentences on Conclusions and Recommendations (Eric, Dereje, Sara)
 
