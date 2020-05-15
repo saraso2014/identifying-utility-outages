@@ -11,13 +11,13 @@ We were able to obtain the data by using a
 - Two sentences on Feature Engineering and Visualization (Eric)
 - Two sentences on Conclusions and Recommendations (Eric, Dereje, Sara)
 
-## Project Directory (Eric):
+## Project Directory:
 
 - README.md
 - [Presentation.pdf]('Presentation.pdf')
 - [01_data_collection]('01_data_collection')
- - [Twitter Scraper (Eric's Credentials)]('../data_collection/twitter-eric.ipynb')
- - [Twitter Scraper (Sara's Credentials)]('../data_collection/twitter-sara.ipynb')
+  - [Twitter Scraper (Eric's Credentials)]('../data_collection/twitter-eric.ipynb')
+  - [Twitter Scraper (Sara's Credentials)]('../data_collection/twitter-sara.ipynb')
 - [02_EDA]('02_EDA')
 - [03_feature_engineering]('03_feature_engineering')
 - [04_modeling]
