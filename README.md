@@ -1,16 +1,16 @@
 # Identifying Utility Outages Using Social Media:
 
 ## Problem Statement: 
+
 Uising social media, can we identify and analyze power outage events in the DC Metro Area? Utility Outage Management Systems have been rolling out new smart grid technologies to supplement traditional methods for detecting and reporting on power outages. However, the new technologies will not be completely rolled out until 2030. While this new technology is implemented, supplemental efforts will be needed to help identify and provide social context on power outages.
 
 ## Executive Summary:
 This project is an effort to spatially and temporally understand social media surrounding power outage events. We assess Twitter to be the most viable means of analyzing power outage events using social media. We couple sentiment analysis with spatial and temporal analaysis in an interactive dashboard to provide insight into power outage events. Our methods, findings, and recommendations are detailed below. 
 
 #### Data and Methodology:
-We scraped and examined 18,000 tweets using the GetTweets API. Techniques included Standard Exploratory Data Analaysis (EDA). UTF-8 characters and emojis were removed, leaving only the text of tweets and several other metadata fields. See the EDA and Data Collection notebooks for furter details. The sampled data was not temporaliy consistent due the limitations of the API. 
+We scraped and examined 18,000 tweets using the GetOldTweets3 API. We pulled these tweets from January, July and October 2019 by searching for tweets containing the phrase "power outage".
 
-Methodology (Sara)
-We were able to obtain the data by using a 
+Techniques included Standard Exploratory Data Analysis (EDA). UTF-8 characters and emojis were removed, leaving only the text of tweets and several other metadata fields. See the EDA and Data Collection notebooks for furter details. The sampled data was not temporally consistent due the limitations of the API.
 
 The most prominent issue of feature engineering was the lack of true geocoordinates, which hampered the ability to create a vialbe proof of concept. We generated synthetic geometries inside of the WMA (approximately 5500 sq miles), and joined these geometries to the 18,000 tweets. This issue can be mitigated with premium Twitter API access.
 
@@ -34,21 +34,24 @@ The most prominent issue of feature engineering was the lack of true geocoordina
 ## Project Directory (Eric):
 
 data
-    --clean
-    --initial test scrape
-    --january
-    --july
-    --merged
-    --ne bomb cyclone data top tweets
-    --ne bomb cyclone data w:o location
-    --spactial data
-data_collection
-EDA
-feature_engineering
-modeling
-tableau
-visualizations
-README.md
+
+    -clean
+
+    -merged
+
+    -spatial_data
+
+    -testing
+
+    -unclean
+
+- data_collection
+- EDA
+- feature_engineering
+- modeling
+- tableau
+- visualizations
+- README.md
 
 
 ## Data Dictionary (Sara):
@@ -74,7 +77,6 @@ README.md
 
 ## Links and Visuals (Eric, Dereje, Sara):
 
-- [Presentation]('https://docs.google.com/presentation/d/128lOfsY1CZh6_4jX0TtL15vsUzMp7NTwL2Twcxc9xho/edit')
-
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/GA_DSI_DC_PowerOutages_20200513/Dashboard?:display_count=y&publish=yes&:origin=viz_share_link" width = '650' height = '450' scrolling='yes' ></iframe>    
+- [Presentation]('Presentation.pdf')
+- [Tableau]('https://public.tableau.com/views/GA_DSI_DC_PowerOutages_20200513/Dashboard?:display_count=y&publish=yes&:origin=viz_share_link')
 
