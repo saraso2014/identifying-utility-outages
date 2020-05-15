@@ -55,3 +55,6 @@ README.md
 ## Links and Visuals (Eric, Dereje, Sara):
 
 - [Presentation]('https://docs.google.com/presentation/d/128lOfsY1CZh6_4jX0TtL15vsUzMp7NTwL2Twcxc9xho/edit')
+
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/GA_DSI_DC_PowerOutages_20200513/Dashboard?:display_count=y&publish=yes&:origin=viz_share_link" width = '650' height = '450' scrolling='yes' ></iframe>    
+
