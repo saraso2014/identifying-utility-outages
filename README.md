@@ -10,7 +10,7 @@ How can we identify utility outage events in the DC Metro Area by analyzing soci
 We were able to obtain 18,000 tweets from January, July and October 2019 using the GetOldTweets3 API wrapper. 
 - Two sentences on Feature Engineering and Visualization (Eric)
 - Two sentences on Conclusions and Recommendations (Eric, Dereje, Sara)
-
+We recommend that this model be scaled for production by connecting a database that pulls the most recent tweets referencing power outages in the DC Metro Area and populates the dashboard with accurate geo-data.
 ## Project Directory:
 
 - README.md
