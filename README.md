@@ -1,8 +1,8 @@
 # Identifying Utility Outages Using Social Media:
-Identifying utility outage events in the District of Columbia Metro Area
 
 ## Problem Statement: 
-Using social media, can we identify and analyze power outage events in the DC Metro Area to deploy resources before utility providers themselves detect problems. 
+
+Uising social media, can we identify and analyze power outage events in the DC Metro Area? Utility Outage Management Systems have been rolling out new smart grid technologies to supplement traditional methods for detecting and reporting on power outages. However, the new technologies will not be completely rolled out until 2030. While this new technology is implemented, supplemental efforts will be needed to help identify and provide social context on power outages.
 
 ## Executive Summary:
 This project is an effort to spatially and temporally understand social media surrounding power outage events. We assess Twitter to be the most viable means of analyzing power outage events using social media. We couple sentiment analysis with spatial and temporal analaysis in an interactive dashboard to provide insight into power outage events. Our methods, findings, and recommendations are detailed below. 
