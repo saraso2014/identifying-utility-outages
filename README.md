@@ -53,3 +53,5 @@ README.md
 
 
 ## Links and Visuals (Eric, Dereje, Sara):
+
+- [Presentation]('https://docs.google.com/presentation/d/128lOfsY1CZh6_4jX0TtL15vsUzMp7NTwL2Twcxc9xho/edit')
