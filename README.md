@@ -31,27 +31,61 @@ The most prominent issue of feature engineering was the lack of true geocoordina
 - Refine sentiment analysis and consider larger query list for relevant terms related to power outage and investigate cosine similarity of these terms uising Word2Vec Python Library.
 - Compare the data from this analysis to actual utility grid-outage data and investigate discrepencies.
 
-## Project Directory (Eric):
+## Project Directory:
 
-data
-
-    -clean
-
-    -merged
-
-    -spatial_data
-
-    -testing
-
-    -unclean
-
-- data_collection
-- EDA
-- feature_engineering
-- modeling
-- tableau
-- visualizations
-- README.md
+## File Directory: 
+- 01_data_collection
+   - twitter-eric.ipynb   
+- 02_eda
+   - EDA-Client-Project-5.ipynb
+   - EDA-for-Client-Project.ipynb
+- 03_fearure_engineering
+   - feature_engineering.ipynb
+- 04_modeling
+   - sentiment_analysis.ipynb
+- 05_images
+   - Image 5-15-20 at 5.26 PM.jpeg
+- 06_slides
+   - Analyzing Power Outages with Social Media.pdf
+- data
+   - clean
+      - clean.csv
+   - initial test scrape
+      - outage-5k-tweets.csv
+      - power outage-5k-tweets copy.csv
+      - power outage-5k-tweets.csv
+      - power outage-10k-tweets.csv
+   - january
+      - january-early_after_tweets.csv
+      - january-end_before_tweets.csv
+      - january-mid_during_tweets.csv
+   - july
+     - july-early_after_tweets.csv
+     - july-end_before_tweets.csv
+     - july-mid_during_tweets.csv
+   - merged 
+      - merged_data_unclean.csv
+      - tweets_geom_unclean.csv
+      - tweets_sa_unclean.csv
+      - clean.ipynb
+   - ne bomb cyclone data top tweets
+      - ne_bomb_cyclone_boston_after_tweets.csv
+      - ne_bomb_cyclone_boston_before_tweets copy.csv
+      - ne_bomb_cyclone_boston_before_tweets.csv
+      - ne_bomb_cyclone_boston_during_tweets.csv
+   - ne bomb cyclone data w/o location
+      - ne_bomb_cyclone_after_tweets.csv
+      - ne_bomb_cyclone_before_tweets.csv
+      - ne_bomb_cyclone_during_tweets.csv
+   - spatial_data
+      - 20_random_pts.csv
+      - 20190109_tableau.csv
+      - DC_Quadrants-shp.shp
+      - random_pts.csv
+      - tl_2017_us_cbsa.shp
+      - wma_gpkg.gpkg
+- Presentation.pdf
+ 
 
 
 ## Data Dictionary (Sara):
