@@ -16,15 +16,7 @@ We recommend that this model be scaled for production by connecting a database t
 
 
 - README.md
-- [Presentation.pdf]('Presentation.pdf')
-- [01_data_collection]('01_data_collection')
- - [Twitter Scraper (Eric's Credentials)]('../data_collection/twitter-eric.ipynb')
- - [Twitter Scraper (Sara's Credentials)]('../data_collection/twitter-sara.ipynb')
-- [02_EDA]('02_EDA')
-- [03_feature_engineering]('03_feature_engineering')
-- [04_modeling]
-- tableau
-- visualizations
+- Presentation.pdf
 - data
  - clean
  - initial scrape
@@ -34,7 +26,14 @@ We recommend that this model be scaled for production by connecting a database t
  - ne bomb cyclone data top tweets
  - ne bomb cyclone data w:o location
  - spatial data
-
+- data_collection
+ - [Twitter Scraper (Eric's Credentials)]('../data_collection/twitter-eric.ipynb')
+ - [Twitter Scraper (Sara's Credentials)]('../data_collection/twitter-sara.ipynb')
+- EDA
+- feature_engineering
+- modeling
+- tableau
+- visualizations
 
 ## Data Dictionary:
 
