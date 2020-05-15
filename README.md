@@ -20,9 +20,7 @@ We were able to obtain 18,000 tweets from January, July and October 2019 using t
   - [Twitter Scraper (Sara's Credentials)]('../data_collection/twitter-sara.ipynb')
 - [02_EDA]('02_EDA')
 - [03_feature_engineering]('03_feature_engineering')
-- [04_modeling]
-- tableau
-- visualizations
+- [04_modeling]('04_modeling')
 - [data]('data')
  - clean
  - initial scrape
@@ -32,11 +30,7 @@ We were able to obtain 18,000 tweets from January, July and October 2019 using t
  - ne bomb cyclone data top tweets
  - ne bomb cyclone data w:o location
  - spatial data
-modeling
-tableau
-visualizations
-README.md
-
+-[images]('images')
 
 ## Data Dictionary (Sara):
 
