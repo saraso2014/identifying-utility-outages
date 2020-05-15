@@ -10,14 +10,19 @@ How can we identify utility outage events in the DC Metro Area by analyzing soci
 We were able to obtain 18,000 tweets from January, July and October 2019 using the GetOldTweets3 API wrapper. 
 - Two sentences on Feature Engineering and Visualization (Eric)
 - Two sentences on Conclusions and Recommendations (Eric, Dereje, Sara)
+
 We recommend that this model be scaled for production by connecting a database that pulls recent tweets in a set in the District of Columbia Metro Area 
 
 ## Project Directory (Eric):
 
 
+We recommend that this model be scaled for production by connecting a database that pulls the most recent tweets referencing power outages in the DC Metro Area and populates the dashboard with accurate geo-data.
+## Project Directory:
+
 - README.md
 - [Presentation.pdf]('Presentation.pdf')
 - [01_data_collection]('01_data_collection')
+
  - [Twitter Scraper (Eric's Credentials)]('../data_collection/twitter-eric.ipynb')
  - [Twitter Scraper (Sara's Credentials)]('../data_collection/twitter-sara.ipynb')
 - [02_EDA]('02_EDA')
@@ -25,7 +30,13 @@ We recommend that this model be scaled for production by connecting a database t
 - [04_modeling]
 - tableau
 - visualizations
-- data
+
+  - [Twitter Scraper (Eric's Credentials)]('../data_collection/twitter-eric.ipynb')
+  - [Twitter Scraper (Sara's Credentials)]('../data_collection/twitter-sara.ipynb')
+- [02_EDA]('02_EDA')
+- [03_feature_engineering]('03_feature_engineering')
+- [04_modeling]('04_modeling')
+- [data]('data')
  - clean
  - initial scrape
  - january
@@ -36,7 +47,13 @@ We recommend that this model be scaled for production by connecting a database t
  - spatial data
 
 
+
 ## Data Dictionary:
+
+-[images]('images')
+
+## Data Dictionary (Sara):
+
 
 | Data        | Meaning                                   | Type    |
 |-------------|-------------------------------------------|---------|
