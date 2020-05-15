@@ -7,7 +7,7 @@ How can we identify utility outage events in the DC Metro Area by analyzing soci
 
 ## Executive Summary:
 - Two sentences on EDA (Dereje) and Methodology (Sara)
-We were able to obtain the data by using a 
+We were able to obtain 18,000 tweets from January, July and October 2019 using the GetOldTweets3 API wrapper. 
 - Two sentences on Feature Engineering and Visualization (Eric)
 - Two sentences on Conclusions and Recommendations (Eric, Dereje, Sara)
 
@@ -23,7 +23,7 @@ We were able to obtain the data by using a
 - [04_modeling]
 - tableau
 - visualizations
-- data
+- [data]('data')
  - clean
  - initial scrape
  - january
@@ -32,9 +32,6 @@ We were able to obtain the data by using a
  - ne bomb cyclone data top tweets
  - ne bomb cyclone data w:o location
  - spatial data
-data_collection
-EDA
-feature_engineering
 modeling
 tableau
 visualizations
