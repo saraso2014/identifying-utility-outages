@@ -2,13 +2,15 @@
 Identifying utility outage events in the District of Columbia Metro Area
 
 ## Problem Statement: 
-How can we identify utility outage events in the DC Metro Area by analyzing social-media streaming data?
-(Elaborate)
+Uising social media, can we identify and analyze power outage events in the DC Metro Area (Elaborate)
 
 ## Executive Summary:
 This project is an effort to spatially and temporally understand social media surrounding power outage events. We assess Twitter to be the most viable means of analyzing power outage events using social media. We couple sentiment analysis with spatial and temporal analaysis in an interactive dashboard to provide insight into power outage events. Our methods, findings, and recommendations are detailed below. 
 
-- Two sentences on EDA (Dereje) and Methodology (Sara)
+#### Data and Methodology:
+We scraped and examined 18,000 tweets using the GetTweets API. Techniques included Standard Exploratory Data Analaysis (EDA). UTF-8 characters and emojis were removed, leaving only the text of tweets and several other metadata fields. See the EDA and Data Collection notebooks for furter details. The sampled data was not temporaliy consistent due the limitations of the API. 
+
+Methodology (Sara)
 We were able to obtain the data by using a 
 
 The most prominent issue of feature engineering was the lack of true geocoordinates, which hampered the ability to create a vialbe proof of concept. We generated synthetic geometries inside of the WMA (approximately 5500 sq miles), and joined these geometries to the 18,000 tweets. This issue can be mitigated with premium Twitter API access.
