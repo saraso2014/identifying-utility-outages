@@ -112,4 +112,4 @@ The most prominent issue of feature engineering was the lack of true geocoordina
 - [Presentation]('Presentation.pdf')
 - [Tableau]('https://public.tableau.com/views/GA_DSI_DC_PowerOutages_20200513/Dashboard?:display_count=y&publish=yes&:origin=viz_share_link')
 
-![](05_images/Image%205-15-20%20at%205.26%20PM.jpeg)
+ 	<image src = "05_images/Image%205-15-20%20at%205.26%20PM.jpeg" width = "600">
