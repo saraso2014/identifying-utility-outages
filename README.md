@@ -13,15 +13,25 @@ We were able to obtain the data by using a
 
 ## Project Directory (Eric):
 
-data
-    --clean
-    --initial test scrape
-    --january
-    --july
-    --merged
-    --ne bomb cyclone data top tweets
-    --ne bomb cyclone data w:o location
-    --spactial data
+- README.md
+- [Presentation.pdf]('Presentation.pdf')
+- [01_data_collection]('01_data_collection')
+ - [Twitter Scraper (Eric's Credentials)]('../data_collection/twitter-eric.ipynb')
+ - [Twitter Scraper (Sara's Credentials)]('../data_collection/twitter-sara.ipynb')
+- [02_EDA]('02_EDA')
+- [03_feature_engineering]('03_feature_engineering')
+- [04_modeling]
+- tableau
+- visualizations
+- data
+ - clean
+ - initial scrape
+ - january
+ - july
+ - merged
+ - ne bomb cyclone data top tweets
+ - ne bomb cyclone data w:o location
+ - spatial data
 data_collection
 EDA
 feature_engineering
