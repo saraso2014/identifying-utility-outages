@@ -35,7 +35,8 @@ The most prominent issue of feature engineering was the lack of true geocoordina
 
 ## File Directory: 
 - 01_data_collection
-   - twitter-eric.ipynb   
+   - twitter-eric.ipynb  
+   - twitter-soueidan.ipynb
 - 02_eda
    - EDA-Client-Project-5.ipynb
    - EDA-for-Client-Project.ipynb
