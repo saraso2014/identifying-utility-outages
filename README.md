@@ -16,7 +16,7 @@ Techniques included Standard Exploratory Data Analysis (EDA). UTF-8 characters a
 
 The most prominent issue of feature engineering was the lack of true geocoordinates, which hampered the ability to create a vialbe proof of concept. We generated synthetic geometries inside of the WMA (approximately 5500 sq miles), and joined these geometries to the 18,000 tweets. This issue can be mitigated with premium Twitter API access.
 
-#### Our recommendations are as follows:
+#### Recommendations:
 1. Purchase Premium Twitter API (Access starts at $100/month, up to $2,500/month)
 	- Scrape twitter with given parameters for outages every X minutes
 	- Connect Tableau dashboard to the the dynamic data, once pulled
@@ -28,7 +28,7 @@ The most prominent issue of feature engineering was the lack of true geocoordina
 	- Point the Tableau connection to that database instead of a CSV.
 	- Publish the Tableau dashboard to the web.
     
-#### Next steps of analysis include:
+#### Next Steps:
 - Identifying true spatial clusters within data. This could provide insight into repeatedly problematic areas, ultimately better-serving customers.
 - Refine sentiment analysis and consider larger query list for relevant terms related to power outage and investigate cosine similarity of these terms uising Word2Vec Python Library.
 - Compare the data from this analysis to actual utility grid-outage data and investigate discrepencies.
