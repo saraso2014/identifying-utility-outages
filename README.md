@@ -89,7 +89,7 @@ The most prominent issue of feature engineering was the lack of true geocoordina
  
 
 
-## Data Dictionary (Sara):
+## Data Dictionary:
 
 | Data        | Meaning                                   | Type    |
 |-------------|-------------------------------------------|---------|
