@@ -107,12 +107,9 @@ The most prominent issue of feature engineering was the lack of true geocoordina
 | Sentiment   | Sentiment Score                           | float64 |
 
 
-## Links and Visuals (Eric, Dereje, Sara):
+## Link to Dashboard Proof of Concept:
 
-- [Presentation](./'Presentation.pdf')
-- [Tableau]('https://public.tableau.com/views/GA_DSI_DC_PowerOutages_20200513/Dashboard?:display_count=y&publish=yes&:origin=viz_share_link')
+-[Click Here to View Dashboard](https://public.tableau.com/views/GA_DSI_DC_PowerOutages_20200513/Dashboard?:display_count=y&publish=yes&:origin=viz_share_link)
 
-http://github.com - automatic!
-[GitHub](http://github.com)
-
+#### Dashboard Snapshot:
  <image src = "05_images/Image%205-15-20%20at%205.26%20PM.jpeg" width = "600">
